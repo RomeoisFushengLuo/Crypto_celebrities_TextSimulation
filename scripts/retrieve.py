@@ -9,9 +9,14 @@ import pandas as pd
 import faiss
 from sentence_transformers import SentenceTransformer
 
-# Paths
-INDEX_PATH = "../embeddings/tweets_index.faiss"
-META_PATH = "../embeddings/tweets_metadata.pkl"
+import os
+
+# Get absolute path to repo root
+REPO_ROOT = os.path.dirname(os.path.dirname(__file__))
+
+INDEX_PATH = os.path.join(REPO_ROOT, "embeddings", "tweets_index.faiss")
+META_PATH = os.path.join(REPO_ROOT, "embeddings", "tweets_metadata.pkl")
+
 
 # Load resources
 print("Loading index and metadata...")
