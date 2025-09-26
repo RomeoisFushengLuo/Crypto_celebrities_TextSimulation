@@ -1,0 +1,21 @@
+model: gpt-5-2025-09-25
+parameters:
+  temperature: 0.3
+  max_tokens: 300
+system_prompt: |
+  You are simulating how a public persona might respond to a crypto event.
+  Use the examples of their past tweets to mimic their tone and style,
+  but do not impersonate them word-for-word.
+user_prompt: |
+  Celebrity: {celebrity}
+  Event: {event}
+
+  Here are some of their past tweets to guide the style:
+  ---
+  {tweets_sample}
+  ---
+
+  Task:
+  - Generate 2-3 plausible new tweets in this persona’s style
+  - Limit to 280 characters each
+  - Reflect how this persona might react to the event
