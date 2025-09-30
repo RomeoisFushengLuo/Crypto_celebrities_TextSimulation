@@ -11,21 +11,23 @@ It works by:
 ---
 
 ## Correspondence between input names (celebrities' tweets account) and their actual names, the user should input the names in the first column.
----- **Author_username** ----  **Author_name** ----
----- APompliano ---- Anthony Pompliano ----
----- CathieDWood ----Cathie Wood ----
----- HesterPeirce ---- Hester Peirce ----
----- Lagarde ---- Christine Lagarde ----
----- Nouriel ---- Nouriel Roubini ----
----- SenWarren_partial / ewarren ---- Elizabeth Warren ----
----- VitalikButerin ---- vitalik.eth ----
----- balajis ---- Balaji Srinivasan ----
----- brian_armstrong ---- Brian Armstrong ----
----- cz_binance_partial ---- Changpeng Zhao ----
----- dtrump ---- Donald Trump ----
----- elonmusk_partial ---- Elon Musk ----
----- saylor ---- Michael Saylor ----
----- steve_hanke ---- Steve Hanke ---- 
+| Author_username         | Author_name        |
+|--------------------------|--------------------|
+| APompliano               | Anthony Pompliano  |
+| CathieDWood              | Cathie Wood        |
+| HesterPeirce             | Hester Peirce      |
+| Lagarde                  | Christine Lagarde  |
+| Nouriel                  | Nouriel Roubini    |
+| SenWarren_partial / ewarren | Elizabeth Warren |
+| VitalikButerin           | vitalik.eth        |
+| balajis                  | Balaji Srinivasan  |
+| brian_armstrong          | Brian Armstrong    |
+| cz_binance_partial       | Changpeng Zhao     |
+| dtrump                   | Donald Trump       |
+| elonmusk_partial         | Elon Musk          |
+| saylor                   | Michael Saylor     |
+| steve_hanke              | Steve Hanke        |
+
 
 
 
